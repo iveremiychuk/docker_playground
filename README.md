@@ -2,5 +2,5 @@
 
 Сборка сервиса
 ```
-docker build -t test -f apps/api/Dockerfile .
+docker build -t test -f Dockerfile .
 ```
