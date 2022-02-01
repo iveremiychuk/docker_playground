@@ -32,7 +32,7 @@ services:
     container_name: api
     volumes:
       - ./.env:/opt/app/.env
-    networks:
+    networks: 
       - myNetwork
     ports:
       - 3002:3000
